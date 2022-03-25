@@ -6,7 +6,7 @@ import random
 #******************Settings********************
 win = Tk()
 win.title("rock,paper,scissor")
-win.geometry('300x350')
+win.geometry('300x310')
 win.resizable(width=False,height=False)
 color='#38d963'
 win.configure(bg=color)
@@ -87,9 +87,9 @@ btn4 = Button(fremes5,text='', width=30,  )
 btn4.pack(side=LEFT, padx=5, pady=5)
 btn5 = Button(fremes7,text='', width=30,  )
 btn5.pack(side=LEFT, padx=5, pady=5)
-btn6 = Button(fremes8,text='clear', width=30,command=lambda: clear()  )
+btn6 = Button(fremes8,text='clear', width=5,command=lambda: clear()  )
 btn6.pack(side=RIGHT, padx=5, pady=5)
-btn7 = Button(fremes8,text='creator', width=30,command= lambda: creator())
+btn7 = Button(fremes8,text='creator', width=5,command= lambda: creator())
 btn7.pack(side=LEFT, padx=5, pady=5)
 
 #******************Label********************
